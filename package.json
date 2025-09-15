@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "name": "digital-time-clock",
+  "version": "1.0.0",
+  "description": "Javascript Project Digital time clock",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TianiiiXD",
+  "license": "ISC",
+  "keywords": []
+}

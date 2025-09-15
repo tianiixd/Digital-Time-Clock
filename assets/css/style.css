@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("../images/lofi\ city.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.time-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 3rem;
+  text-align: center;
+}
+
+.time {
+  font-size: 7rem;
+  font-family: "Pixelify Sans", sans-serif;
+  color: #f6f7f9;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  background-color: hsla(204, 87%, 47%, 0.151);
+}
