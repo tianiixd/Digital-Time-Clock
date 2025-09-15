@@ -16,6 +16,7 @@ body {
 
 .time-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   position: relative;
@@ -30,4 +31,27 @@ body {
   width: 100%;
   backdrop-filter: blur(5px);
   background-color: hsla(204, 87%, 47%, 0.151);
+}
+
+.button-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#play-audio {
+  font-size: 1.5rem;
+  font-family: "Pixelify Sans", sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 0.5rem 1rem;
+  margin-top: 1.5rem;
+}
+#play-audio:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }

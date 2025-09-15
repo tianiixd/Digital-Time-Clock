@@ -11,3 +11,12 @@ function updateClock() {
 
 updateClock();
 setInterval(updateClock, 1000);
+
+const audio = new Audio("./assets/audio/1am-study-session.mp3");
+
+$("#play-audio").on("click", function () {
+  audio.load();
+  audio.play().catch((err) => {
+    console.error("Playback failed:", err);
+  });
+});
